@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.bookmark-container {
+    /* color: red !important; */
+    /* border: 2px solid orangered; */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.bookmark-link {
+    margin: 5px;
+}
+
+.bookmark {
+    border: 2px solid red;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.external-link {
+    text-decoration: underline;
+    display: block;
+    margin: 7px 0px;
+}
